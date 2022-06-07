@@ -21,6 +21,7 @@ class ContactForm extends Component{
 
     render(){
         const {name, number}= this.state
+        
         return(
             <form onSubmit={this.addContact} className={s.form}>
                 <span className={s.name}>Name</span>
